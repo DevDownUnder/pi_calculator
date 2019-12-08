@@ -1,0 +1,73 @@
+body{
+    line-height: 1.5;
+    color: rgba(0, 0, 0, 0.616);
+    box-sizing: border-box;
+        font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 400;
+    margin: 10px 30vw;
+    font-size: 32px;
+    text-align: center;
+
+}
+
+button{
+
+    box-sizing: border-box;
+font-family: inherit;
+font-size: inherit;
+cursor: pointer;
+padding: 25px 50px;
+display: inline-block;
+margin: 15px 30px;
+text-transform: uppercase;
+letter-spacing: 1px;
+font-weight: 700;
+outline: none;
+position: relative;
+color: #fff;
+background: #80b9f1;
+transition: none;
+border: 4px solid #226fbe;
+border-radius: 60px;
+}
+
+button:hover{
+    box-sizing: border-box;
+font-family: inherit;
+font-size: inherit;
+cursor: pointer;
+padding: 25px 50px;
+display: inline-block;
+margin: 15px 30px;
+text-transform: uppercase;
+letter-spacing: 1px;
+font-weight: 700;
+outline: none;
+position: relative;
+transition: none;
+border: 4px solid #226fbe;
+border-radius: 60px;
+background: #73b4f5;
+color: #226fbe;
+}
+
+button:active{
+    box-sizing: border-box;
+font-family: inherit;
+font-size: inherit;
+cursor: pointer;
+padding: 25px 50px;
+display: inline-block;
+margin: 15px 30px;
+text-transform: uppercase;
+letter-spacing: 1px;
+font-weight: 700;
+outline: none;
+position: relative;
+color: #fff;
+background: #226fbe;
+transition: none;
+border: 4px solid #226fbe;
+border-radius: 60px;
+top: 2px;
+}

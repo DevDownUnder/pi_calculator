@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Find PI to the Nth number</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+</head>
+
+<body>
+
+  <h1>Find PI to the Nth number</h1>
+
+  <button onclick="myFunction()">Try It!</button>
+
+  <p id="demo"></p>
+
+  <script>
+    //Find PI to the Nth number
+
+    //Establish Pi
+    const pi = Math.PI;
+
+    //MyFunction
+    //toFixed method allows the selection of 'x' number of decimal places
+    function myFunction() {
+      let selection = prompt("Please enter a number from 1 to 20", " ");
+      if (selection < 1 || selection > 20) {
+        alert("Please choose again, between 1 and 20")
+      } else {
+        document.getElementById('demo').innerHTML =
+          pi.toFixed(selection);
+      }
+    }
+  </script>
+
+
+</body>
+
+</html>
