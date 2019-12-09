@@ -12,14 +12,14 @@
 
 <body>
 
-  <h1>Find PI to the Nth number</h1>
+  <h1>Find Pi to the Nth number</h1>
 
   <button onclick="myFunction()">Try It!</button>
 
   <p id="demo"></p>
 
   <script>
-    //Find PI to the Nth number
+    //Find Pi to the Nth number
 
     //Establish Pi
     const pi = Math.PI;
@@ -27,9 +27,9 @@
     //MyFunction
     //toFixed method allows the selection of 'x' number of decimal places
     function myFunction() {
-      let selection = prompt("Please enter a number from 1 to 20", " ");
-      if (selection < 1 || selection > 20) {
-        alert("Please choose again, between 1 and 20")
+      let selection = prompt("Please enter a number from 1 to 25", " ");
+      if (selection < 1 || selection > 25) {
+        alert("Please choose again, between 1 and 25")
       } else {
         document.getElementById('demo').innerHTML =
           pi.toFixed(selection);
